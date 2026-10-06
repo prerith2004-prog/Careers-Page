@@ -65,20 +65,6 @@ Edit these values at the top of `job_scraper.py`:
 | `LOCATION_KEYWORDS` | Bangalore, Bengaluru, Bengalooru | Location words a job must contain |
 | `IT_KEYWORDS` | software, developer, engineer, ... | IT words a job must contain |
 
-## Limitations
-
-- **Results vary between runs.** The script reads live websites, so jobs, page load speed and site behaviour change over time.
-- **The scraper is generic.** Each company builds its career page differently. Some sites return many jobs, while others (for example sites that load jobs in an unusual way or block automated browsers) may return none. The `Run Log` sheet shows the result for each site.
-- **Not every job is collected.** The script reads a limited number of result pages per site.
-- Please follow each website's terms of use, and keep scans light.
-
-## Possible improvements
-
-- Add site-specific extractors for companies the generic scraper cannot read.
-- Read more result pages and de-duplicate across runs.
-- Schedule the script to run daily.
-- Add filters for experience level or job category.
-
 ## Author
 
 [Prerith]
